@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" version="1.2" viewBox="0 0 640 640">
+  <!-- Generator: Adobe Illustrator 29.7.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 138)  -->
+  <g isolation="isolate">
+    <g id="g-transit-access-single-Artboard_1-legends-img">
+      <g>
+        <g id="legend-1">
+          <image width="180" height="1742" transform="translate(-1.84 95.96) scale(.24)" xlink:href="transit-access-single-Artboard_1-legends-1.png" mix-blend-mode="screen" opacity=".5"/>
+          <g>
+            <path d="M32.317,504.984H7.317v-66.615h25v66.615" vector-effect="none" fill="#e37300" fill-rule="evenodd"/>
+            <path d="M32.317,438.307H7.317v-66.615h25v66.615" vector-effect="none" fill="#e0b264" fill-rule="evenodd"/>
+            <path d="M32.317,371.631H7.317v-66.615h25v66.615" vector-effect="none" fill="#e5d1a0" fill-rule="evenodd"/>
+            <path d="M32.317,304.952H7.317v-66.615h25v66.615" vector-effect="none" fill="#eee5ce" fill-rule="evenodd"/>
+            <path d="M32.317,238.275H7.317v-66.615h25v66.615" vector-effect="none" fill="#edf8fb" fill-rule="evenodd"/>
+            <path d="M32.317,171.599H7.317v-66.615h25v66.615" vector-effect="none" fill="#6cb4a9" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <g id="legend-2">
+          <image width="180" height="1743" transform="translate(-1.84 94.76) scale(.24)" xlink:href="transit-access-single-Artboard_1-legends-2.png" mix-blend-mode="screen" opacity=".5"/>
+          <g>
+            <path d="M32.317,503.933H7.317v-57.097h25v57.097" vector-effect="none" fill="#edf8fb" fill-rule="evenodd"/>
+            <path d="M32.317,446.782H7.317v-57.097h25v57.097" vector-effect="none" fill="#ccece6" fill-rule="evenodd"/>
+            <path d="M32.317,389.632H7.317v-57.097h25v57.097" vector-effect="none" fill="#99d8c9" fill-rule="evenodd"/>
+            <path d="M32.317,332.481H7.317v-57.097h25v57.097" vector-effect="none" fill="#66c2a4" fill-rule="evenodd"/>
+            <path d="M32.317,275.33H7.317v-57.097h25v57.097" vector-effect="none" fill="#41ae76" fill-rule="evenodd"/>
+            <path d="M32.317,218.18H7.317v-57.097h25v57.097" vector-effect="none" fill="#238b45" fill-rule="evenodd"/>
+            <path d="M32.317,161.03H7.317v-57.097h25v57.097" vector-effect="none" fill="#005824" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+<style>
+#g-transit-access-single-Artboard_1-legends-img rect, #g-transit-access-single-Artboard_1-legends-img circle, #g-transit-access-single-Artboard_1-legends-img path, #g-transit-access-single-Artboard_1-legends-img line, #g-transit-access-single-Artboard_1-legends-img polyline, #g-transit-access-single-Artboard_1-legends-img polygon { vector-effect: non-scaling-stroke; }
+</style>
+</svg>

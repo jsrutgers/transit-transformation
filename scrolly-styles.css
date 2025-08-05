@@ -1,0 +1,84 @@
+.ai2html-container{
+    margin-left: 25vw !important;
+    max-width: 53vw !important;
+    max-height: none !important;
+    }
+    .g-artboard{
+    max-width: 53vw !important;
+    max-height: none !important;
+    }
+
+    .scrolly-overlay {
+    position: relative;
+    padding: 0;
+    max-width: 25vw;
+    margin-left: -4px;
+    padding-bottom: 400px;
+    }
+
+#scrolly {
+position: relative;
+padding: 1.5rem; 
+}
+
+.sticky-thing {
+position: -webkit-sticky;
+position: sticky;
+left: 0;
+width: 100%;
+margin: 0;
+z-index: 0;
+top: 0;
+height: 100vh;
+/* Center everything inside */
+display: flex;
+justify-content: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.step {
+width: 25vw;
+margin: 0 auto 2rem auto;
+margin-bottom: 20rem;
+background-color: none;
+color: #333;
+border: 3px solid rgb(99, 131, 155);
+}
+
+.step p {
+text-align: center;
+padding: 1rem;
+font-size: 1rem;
+/* border: black; */
+}
+
+/* .hidden { visibility: hidden; } */
+.hidden { visibility: hidden; }
+
+/* When it's less than 700 pixels wide, do normal scrollytelling */
+@media only screen and (min-width: 700px) {
+#scrolly.side-by-side {
+    display: flex;
+}
+
+#scrolly.side-by-side > div {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75em;
+}
+
+#scrolly.side-by-side .scrolly-overlay {
+    margin-top: 70vh;
+    order: 0;
+    /* Change these to adjust sizing options */
+    min-width: 10rem;
+    max-width: 15rem;
+}
+
+#scrolly.side-by-side .sticky-thing {
+    order: 1;
+    flex-grow: 2;
+}
+}
