@@ -9,7 +9,7 @@
     <!-- Google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap" rel="stylesheet">
 
     <!-- Bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -35,8 +35,7 @@
         }
 
         a {
-            color: #333;
-            background-color: #D9A362;
+            color: cornflowerblue;
         }
 
         .footer {
@@ -60,22 +59,37 @@
         }
 
         h1 {
-            font-family: 'Roboto Slab', Georgia, serif;
-            font-weight: bold;
-            font-size: 3em;
+            font-family: 'Rubik Dirt', Impact, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            font-size: 5em;
             line-height: 1.1;
+
         }
 
         .subhead {
             font-family: 'Roboto Slab', Georgia, serif;
-            font-weight: 300;
+            font-weight: 500;
             letter-spacing: 0.02em;
+            font-variant: small-caps;
+            text-align: center;
+            font-size: 2em;
         }
 
         iframe,
         img,
         video {
             max-width: 100%;
+        }
+        .sidebyside-container {
+          float: left;
+          width: 50%;
+          padding: 5px;
+        }
+
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
         }
 
         p {
@@ -105,9 +119,17 @@
         }
         
         .byline{
-          font-variant: small-caps;
-          font-weight: 500;
+          font-weight: bold;
+          font-size: medium;
+          text-align: center;
     
+        }
+
+        hr.divider{
+          border: none;
+          background: linear-gradient(to right, white,cornflowerblue, white);
+          height: 3px;
+
         }
  
         /* margin on mobile */
@@ -131,25 +153,60 @@
 
 <body>
       <div class="content">
-          <h1>Somehow, transit still sucks</h1>
-           <p class="subhead">Practically overnight, Winnipeg Transit went through the biggest overhaul in its 140-year history. </p>
-           <p class="subhead">The new <span style="background-color: cornflowerblue;">Primary Transit Network</span> is meant to usher in an era of faster, safer, more reliable service. </p>
-           <p class="subhead">But riders are calling the new network a disaster. The city admits there have been "glitches."</p>
-           <p class="subhead">This scrolling map experience helps track what's <i>really</i> changed with the dawn of the new Winnipeg Transit.</p>
+          <h1>U-TURN:</h1>
+           <p class="subhead">a closer look at the transit transformation denounced as a disaster</p>
+           <p class="byline">By <a href="https://github.com/jsrutgers">Julia-Simone Rutgers</a></p>
+          <hr class="divider">
         </div>        
-
+    <span class ="divider"></span>
     <div class="content">
         <div class="byline">
-            <p>By  <a href="https://github.com/jsrutgers">Julia-Simone Rutgers</a></p>
         </div>
-        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-            cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-            repellendus.</p>
-        <p>You will need <code><a href="scrolly-styles.css">scrolly-styles.css</a></code> for the page to work for you. Note that the steps themselves are below the ai2html content.
+        <p>Winnipeg Transit was never particularly popular. Unsurprising — any transit system with a reputation for leaving riders stranded in the cold while passing buses flash ‘Not in Service’ signs is unlikely to have many fans. Or all too many riders, for that matter.</p>
+        <p>Polling in 2023 found about one in ten Winnipeggers use the bus for their daily commute and half don’t use transit at all.</p>
+        <p>Some kind of change was inevitable. City council approved a “transit master plan” in 2021, charting a long-term path to modernization that would make riding the bus more convenient, accessible and attractive.</p>
+        <p>To get there, the city would need "an entirely new transit network."<sup>1</sup></p>
+        <br>
+        
+        <!-- STILL MAP: Original network -->
+         <figure>
+            <img src="icon-images/winnipeg-transit_Original network.png" alt="" style="width:100%">         
+        </figure>
+        
+        <br>
+        <p>On June 29 — practically overnight — that all-new “Primary Transit Network” hit the road, logging the first kilometres toward the public transit promised land.</p>
+        <p>“We expect it will improve things city-wide when we launch. More residents than ever will have access to frequent service,” transit planner Kevin Sturgeon said in February 2024.<sup>2</sup></p>
+        <p> The overhaul is the largest in transit’s 140-year history. But it’s hit one tiny roadblock: riders — especially many transit regulars — seem to absolutely hate it.</p>
+        <br>
+       
+        <!-- MASHUP OF HEADLINES -->
+         <figure>
+            <img src="icon-images/mixed-reviews-winnipeg-transit.png">
+            <figcaption> Recent headlines reflect a mixed response to the Primary Transit Network. </figcaption>
+          </figure>
+       
+          <br>
+        <p>Complaints mostly centre around the keystone of the new network: 
+          the city is prioritizing frequent “spine” routes that make fewer stops and follow straighter paths 
+          to make transit more efficient and reliable. 
         </p>
-        <p>To know the details of how this works, check out <a href="https://www.youtube.com/watch?v=bJKLmEBu2sE&list=PLewNEVDy7gq3MSrrO3eMEW8PhGMEVh2X2&index=7">this video</a> and <a href="https://www.youtube.com/watch?v=hZ1g7d5BPYQ&list=PLewNEVDy7gq3MSrrO3eMEW8PhGMEVh2X2&index=9">this video</a>.</p>
-        <hr>
+        <p>The old system’s 87 routes and 5,200-ish bus stops have been stripped down to 71 routes and about 3,800 stops.<sup>3</sup></p>
+        <br>
+        
+        <!-- OTHER STILL HERE-->
+
+        <figure>
+          <img src="icon-images/winnipeg-transit_New network.png" alt="" style="width:100%">
+        </figure>
+       
+        <br>
+        <p>A little over a month in, some riders <i>do</i> report more frequent, on-time service and others have been able to commute by bus for the first time. </p>
+        <p>But for many, the changes means longer walks, inconvenient service hours and more transfers to get where they’re going — especially in residential areas.</p>
+        <p>The city removed 1,700 bus stops in all (and added about 450 new ones), but did not report exactly where they disappeared from.</p>
+        <p>The maps in this story use publicly available General Transit Feed Service data and data from the 2021 census to take a closer look at the transit overhaul — and who it impacts most.</p>
+        <hr class="divider">
     </div>
+
     <section id="scrolly">
         <div class="sticky-thing">
           <div class="ai2html-container">
@@ -2389,45 +2446,76 @@
         
        <div class="scrolly-overlay">
           <div class="step" id="step-one">
-            <p>STEP ONE<br><br>The first thing to happen.</p>
+            <p><b>Where did the stops disappear from?</b></p>
+            <p>City-wide, Winnipeg has lost a hair fewer than three bus stops per square kilometre.</p>
+            <p>The biggest losses were felt downtown and North End wards like Fort Rouge, Mynarski and Point Douglas seeing above-average losses.</p>
+            <p>Waverly West and Transcona (both of which saw population booms in recent years) have lost the fewest stops.</p>
           </div>
           <div class="step" id="step-two">
-            <p>STEP TWO<br><br>The second thing to happen.<br> <br> * what fun! *</p>
+            <p><b>Who needs transit the most?</b></p>
+            <p>
+              According to the 2021 census, the Daniel McIntyre neighbourhood (downtown, for the most part) hosts the highest share of low-income residents, 
+              followed  by Fort Rouge, Mynarski and Point Douglas — and Waverly West.
+            </p>
           </div>
           <div class="step" id="step-three">
-            <p>STEP THREE</p>
+            <p>These neighbourhoods also share top ranks when it comes to the proportion of residents taking the bus as part of their regular commute.</p>
+            <p> Many of these neighbourhoods fall along major roads and, therefore, more regular transit routes. </p>
           </div>
           <div class="step" id="step-four">
-            <p>STEP FOUR</p>
+            <p>With those factors stacked together, the dark-green patches show areas where transit might already be a necessity.</p>
           </div>
           <div class="step" id="step-five">
-            <p>STEP FIVE</p>
+            <p>Namely the downtown core, the North End and the communities surrounding Manitoba's largest university.</p>
           </div>
           <div class="step" id="step-six">
-            <p>STEP SIX</p>
+            <p><b>Here we find the disperancy:</b></p>
+            <p>Areas of the city where the poverty rate is higher than 20% have lost 7 - 8 bus stops per square kilometre — 
+              more than twice the city average. <br>
+              Areas of the city where 20 - 30% of residents are transit commuters have lost about 6 stops per square kilometre.
+              And the parts of town that use transit <i>most</i>, where at least 30% of the population commute via transit,
+              have lost nearly 12 stops per square kilometre — more than quadruple the city average.
+              </p>
           </div>
            <div class="step" id="step-seven">
-            <p>STEP SEVEN</p>
+            <p><b>So...why?</b></p>
+            <p>Transit is a complicated public service. The city says it's aiming for something called "bus stop balancing",
+            where stops are fewer and farther between along the frequent routes. The city's big goal is to evolve the new "spine and feeder"
+            network into a well-oiled, bus rapid transit system. <i>(It's probably a little too late for light rail...)</i> 
+            </p>
+            <p> Before the Primary Transit Network, the city found just TK per cent of homes were within a short walk of a frequent bus route.
+              By frequent, they mean a bus that reliably arrives every 15 minutes.
+              The city's goal is to reach TK% of households by 2045.
+            </p>
           </div>
            <div class="step" id="step-eight">
-            <p>STEP EIGHT</p>
+            <p>The new transit era brought a massive boom in rapid transit reach. 
+              The estimated population within a 15 minute walk of a frequent bus stop has lept up by 70%, and core neighbourhoods are well covered. </p>
           </div>
            <div class="step" id="step-nine">
-            <p>STEP NINE</p>
+            <p>But <i>balance</i> is the key word. And critics of the network have pointed out that these rapid routes neglect residential areas.
+            What good is an on-time bus stop that's too far to walk to, or isn't going where you need to be?
+            </p>
           </div>
         </div>
       </section>
     
     <div class="content">
-      <hr>
+      <hr class="divider">
       <br>
 
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo
-            enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui
-            ratione voluptatem sequi nesciunt.</p>
+        <p>The good news is: Winnipeg Transit is open for feedback. The bad news? It likely won't make any adjustments until next summer.
+        </p>
+        <p> That's at least in part because of yet another factor the city is trying to balance: transit isn't cheap. 
+          These changes are an interim step on an eventual $TK journey. The primary transit network alone cost $TK — though costs were split with the federal government.
+          There are little kinks still to work out: the GPS was on the fritz, spoiling the first month of real-time data about the network transformation; 
+          there aren't enough of the long, bendy buses yet to service all those new rapid routes, so pass-ups (when the bus is too full to stop) haven't 
+          <i>also</i> dissappeared overnight. 
+        </p>
+        <p> Each of the 1,7TK missing bus stops saves the city a little cash. Replacing just one would cost close to $22 grand every year, per city estimates.
+          Bringing them <i>all</i> back, and adding more buses to service them? That could run up a bill of almost $4 million annually. 
+          It's all about the balance...
+        </p>
         <figure>
             <img
                 src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">

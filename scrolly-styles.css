@@ -44,6 +44,7 @@ margin-bottom: 20rem;
 background-color: none;
 color: #333;
 border: 3px solid rgb(99, 131, 155);
+border-radius: 15%;
 }
 
 .step p {
